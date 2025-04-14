@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اتصل بنا - أنظمة الماوس الذكي لصيانة الكمبيوتر</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- إضافة Font Awesome للأيقونات -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- شريط التنقل العلوي -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1><i class="fas fa-mouse"></i> أنظمة الماوس الذكي</h1>
+                <p>لصيانة وبيع الكمبيوترات</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">الرئيسية</a></li>
+                    <li><a href="about.html">من نحن</a></li>
+                    <li><a href="services.html">خدماتنا</a></li>
+                    <li><a href="products.html">منتجاتنا</a></li>
+                    <li><a href="contact.html" class="active">اتصل بنا</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- قسم العنوان الرئيسي -->
+    <section class="page-header">
+        <div class="container">
+            <h1>اتصل بنا</h1>
+            <p>نحن هنا للإجابة على استفساراتك وتلبية احتياجاتك</p>
+        </div>
+    </section>
+
+    <!-- قسم معلومات الاتصال -->
+    <section class="contact-info-section">
+        <div class="container">
+            <div class="contact-info-grid">
+                <div class="contact-info-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>العنوان</h3>
+                    <p>الرياض، حي الربوه، شارع الأمير متعب</p>
+                </div>
+                <div class="contact-info-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <h3>رقم الهاتف</h3>
+                    <p>0543343552</p>
+                </div>
+                <div class="contact-info-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>ساعات العمل</h3>
+                    <p>السبت - الخميس: 9 صباحاً - 9 مساءً</p>
+                    <p>الجمعة: 4 عصراً - 9 مساءً</p>
+                </div>
+                <div class="contact-info-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>البريد الإلكتروني</h3>
+                    <p>info@smartmouse.sa</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم نموذج الاتصال والخريطة -->
+    <section class="contact-form-map">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-form">
+                    <h2>أرسل لنا رسالة</h2>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">الاسم الكامل</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">رقم الجوال</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">البريد الإلكتروني</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">الموضوع</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">الرسالة</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-large">إرسال الرسالة</button>
+                    </form>
+                </div>
+                <div class="contact-map">
+                    <h2>موقعنا</h2>
+                    <div class="map-container">
+                        <!-- هنا يمكن إضافة خريطة جوجل أو صورة للخريطة -->
+                        <img src="images/map.jpg" alt="خريطة الموقع">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم الأسئلة الشائعة -->
+    <section class="faq-section">
+        <div class="container">
+            <h2 class="section-title">الأسئلة الشائعة</h2>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>ما هي مدة الضمان على الأجهزة المباعة؟</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>نقدم ضمان لمدة سنة على الأجهزة الجديدة و3 أشهر على الأجهزة المستعملة، ويشمل الضمان أي عيوب مصنعية أو أعطال غير ناتجة عن سوء الاستخدام.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>هل تقدمون خدمة الصيانة المنزلية؟</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>نعم، نقدم خدمة الصيانة المنزلية داخل مدينة الرياض بتكلفة إضافية تعتمد على المسافة ونوع الخدمة المطلوبة.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>كم تستغرق عملية صيانة الجهاز؟</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>تعتمد مدة الصيانة على نوع العطل، ولكن في معظم الحالات تستغرق من 24 إلى 72 ساعة. في حالات الأعطال البسيطة قد يتم إصلاح الجهاز خلال ساعات.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>هل تقبلون الدفع بالبطاقات الائتمانية؟</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>نعم، نقبل الدفع نقداً وبالبطاقات الائتمانية وعبر التحويل البنكي وتطبيقات الدفع الإلكتروني.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم التواصل الاجتماعي -->
+    <section class="social-section">
+        <div class="container">
+            <h2 class="section-title">تابعنا على وسائل التواصل الاجتماعي</h2>
+            <div class="social-grid">
+                <a href="#" class="social-card facebook">
+                    <i class="fab fa-facebook-f"></i>
+                    <span>فيسبوك</span>
+                </a>
+                <a href="#" class="social-card twitter">
+                    <i class="fab fa-twitter"></i>
+                    <span>تويتر</span>
+                </a>
+                <a href="#" class="social-card instagram">
+                    <i class="fab fa-instagram"></i>
+                    <span>انستغرام</span>
+                </a>
+                <a href="#" class="social-card whatsapp">
+                    <i class="fab fa-whatsapp"></i>
+                    <span>واتساب</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- تذييل الصفحة -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2><i class="fas fa-mouse"></i> أنظمة الماوس الذكي</h2>
+                    <p>لصيانة وبيع الكمبيوترات</p>
+                </div>
+                <div class="footer-links">
+                    <h3>روابط سريعة</h3>
+                    <ul>
+                        <li><a href="index.html">الرئيسية</a></li>
+                        <li><a href="about.html">من نحن</a></li>
+                        <li><a href="services.html">خدماتنا</a></li>
+                        <li><a href="products.html">منتجاتنا</a></li>
+                        <li><a href="contact.html">اتصل بنا</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>معلومات الاتصال</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> الرياض، حي الربوه، شارع الأمير متعب</p>
+                    <p><i class="fas fa-phone"></i> 0543343552</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 أنظمة الماوس الذكي لصيانة الكمبيوتر. جميع الحقوق محفوظة.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
